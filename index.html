@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La clothes</title>
+    <link rel="stylesheet" href="https://popdiscos-bootstrap.vercel.app/lib/bootstrap.min.css">
+
+    <style>
+        .navbar-nav .nav-link.active {
+            color: #fff;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        section {
+            height: 100vh;
+            background-color: #fff;
+            padding-top: 70px;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+        }
+
+        .carousel-item {
+
+        height: 800px; /* Defina a altura desejada */
+
+    }
+
+    .carousel-item img {
+
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .produtos h1 {
+        padding: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="navbar navbar-expand-lg">
+        <div class="container">
+            <h1>La clothes </h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            </div>
+
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="imagens/1.jpg" />
+                            <div class="carousel-caption">
+                                <h2>As Melhores peças</h2>
+                                <p><button type="button" class="btn btn-primary">Compre agora</button></p>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="imagens/2.jpg"/>
+                            <div class="carousel-caption">
+                                <h2>Atendimento único</h2>
+                                <p><button type="button" class="btn btn-primary">Compre agora</button></p>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="imagens/3.jpg" />
+                            <div class="carousel-caption">
+                                <h2>Peças Dos Maiores Estilistas</h2>
+                                <p><button type="button" class="btn btn-primary">Compre agora</button></p>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="imagens/4.jpg" />
+                            <div class="carousel-caption">
+                                <h2>O Melhor preço do mercado</h2>
+                                <p><button type="button" class="btn btn-primary">Compre agora</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                    </div>
+                </div>
+
+                <div class="produtos" id="produtos">
+                    <h1>Produtos</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                <img src="imagens/blusa preta basica.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Blusa preta</h4>
+                                    <p class="card-text">
+                                        Blusa Preta Básica LA clothes
+                                    </p>
+                                    <p><strong>R$40,00</strong></p>
+                                    <a href="#" class="btn btn-primary">Mais informações</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                <img src="imagens/blusa.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Blusa de Tricot</h4>
+                                    <p class="card-text">
+                                        Blusa de Tricot LA clothes
+                                    </p>
+                                    <p><strong>R$80,00</strong></p>
+                                    <a href="#" class="btn btn-primary">Mais informações</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                <img src="imagens/gravata.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Gravata</h4>
+                                    <p class="card-text">
+                                        Gravata Azul Don Montez
+                                    </p>
+                                    <p><strong>R$30,00</strong></p>
+                                    <a href="#" class="btn btn-primary">Mais informações</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                <img src="imagens/luvas.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Luvas</h4>
+                                    <p class="card-text">
+                                        Luvas La fran
+                                    </p>
+                                    <p><strong>R$45,80</strong></p>
+                                    <a href="#" class="btn btn-primary">Mais informações</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                <img src="imagens/sapato.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Sapatos</h4>
+                                    <p class="card-text">
+                                        Sapatos Don montez
+                                    </p>
+                                    <p><strong>R$230,00</strong></p>
+                                    <a href="#" class="btn btn-primary">Mais informações</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="card">
+                                <img src="imagens/sutiã.jpg" />
+                                <div class="card-body">
+                                    <h4 class="card-title">sutiã</h4>
+                                    <p class="card-text">
+                                        Sutiã von laton
+                                    </p>
+                                    <p><strong>R$34,70</strong></p>
+                                    <a href="#" class="btn btn-primary">Mais informações</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                
+
+
+
+
+    <script src="https://popdiscos-bootstrap.vercel.app/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
